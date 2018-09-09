@@ -39,3 +39,9 @@ python manage.py startapp profiles_api
 
 #In src/profiles_project run command to run server.
 python manage.py runserver 0.0.0.0:8080
+
+#Make migrations
+python manage.py makemigrations
+
+#Run migrations
+python manage.py migrate
